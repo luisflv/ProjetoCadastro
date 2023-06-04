@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace CadastroVeiculo
 {
-    public partial class Editar : Form
+    public partial class Excluir : Form
     {
-        ListaVeiculos listaVeiculo;
-
-        public Editar(ListaVeiculos listaVeiculos)
+        public Excluir()
         {
             InitializeComponent();
-            listaVeiculos = new ListaVeiculos();
-        }
-
-        
-
-        private void Editar_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -17,34 +17,26 @@ namespace CadastroVeiculo
         public Form1()
         {
             InitializeComponent();
-        }
-
-        private void btn_cadastrar_Click(object sender, EventArgs e)
-        {
-            Cadastrar c = new Cadastrar(listaVeiculos);
-            c.Show();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
             
         }
 
-      
-        private void panel_resultado_Paint(object sender, PaintEventArgs e)
+        private void btn_cadastrar_Click_1(object sender, EventArgs e)
         {
+            Cadastrar cad = new Cadastrar(listaVeiculos);
+            cad.Show();
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btn_consultar_Click(object sender, EventArgs e)
         {
             Consultar cons = new Consultar(listaVeiculos);
             cons.Show();
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void btn_atualizar_Click(object sender, EventArgs e)
         {
-
+            Editar edit = new Editar(listaVeiculos);
+            edit.Show();
         }
     }
 }

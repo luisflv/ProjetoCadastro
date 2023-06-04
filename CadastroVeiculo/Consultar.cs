@@ -30,13 +30,18 @@ namespace CadastroVeiculo
         {
             List<Veiculo> listV = listaVeiculo.Consultar();
 
-
-            foreach (var item in listV)
+            if (listV.Count == 0)
             {
-                listBox_consulta.Items.Add(item.Id + "|" + item.Modelo);
+                MessageBox.Show("Lista Vazia!");
             }
+            else
+            {
+                foreach (var item in listV)
+                {
+                    listBox_consulta.Items.Add(item.ToString());
+                }
 
-
+            }
 
 
 

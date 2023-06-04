@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cadastrar));
             this.txt_modelo = new System.Windows.Forms.TextBox();
             this.txt_marca = new System.Windows.Forms.TextBox();
             this.txt_cor = new System.Windows.Forms.TextBox();
@@ -147,6 +148,9 @@
             this.Controls.Add(this.txt_cor);
             this.Controls.Add(this.txt_marca);
             this.Controls.Add(this.txt_modelo);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Cadastrar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastrar";

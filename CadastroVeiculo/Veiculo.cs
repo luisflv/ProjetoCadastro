@@ -14,5 +14,10 @@ namespace CadastroVeiculo
         public string Cor { get; set; }
         public int Ano { get; set; }
         public double Quilometragem { get; set; }
+
+        public override string ToString()
+        {
+            return $"ID: {Id} Modelo: {Modelo} Marca: {Marca} Cor: {Cor} Ano: {Ano} Quilometragem: {Quilometragem}";
+        }
     }
 }

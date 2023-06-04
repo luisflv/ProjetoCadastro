@@ -1,6 +1,6 @@
 ﻿namespace CadastroVeiculo
 {
-    partial class Editar
+    partial class Excluir
     {
         /// <summary>
         /// Required designer variable.
@@ -30,15 +30,14 @@
         {
             this.SuspendLayout();
             // 
-            // Editar
+            // Excluir
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "Editar";
+            this.Name = "Excluir";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Editar";
-            this.Load += new System.EventHandler(this.Editar_Load);
+            this.Text = "Excluir";
             this.ResumeLayout(false);
 
         }
