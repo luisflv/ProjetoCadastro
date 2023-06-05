@@ -12,9 +12,14 @@ namespace CadastroVeiculo
 {
     public partial class Excluir : Form
     {
-        public Excluir()
+        ListaVeiculos listaVeiculos;
+
+        public Excluir(ListaVeiculos listaVeiculos)
         {
             InitializeComponent();
+            this.listaVeiculos= listaVeiculos;
         }
+
+        
     }
 }

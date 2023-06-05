@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,12 +13,13 @@ namespace CadastroVeiculo
 {
     public partial class Form1 : Form
     {
-        ListaVeiculos listaVeiculos = new ListaVeiculos();   
+        ListaVeiculos listaVeiculos = new ListaVeiculos();
+
 
         public Form1()
         {
             InitializeComponent();
-            
+
         }
 
         private void btn_cadastrar_Click_1(object sender, EventArgs e)
@@ -37,6 +39,17 @@ namespace CadastroVeiculo
         {
             Editar edit = new Editar(listaVeiculos);
             edit.Show();
+        }
+
+        private void btn_excluir_Click(object sender, EventArgs e)
+        {
+            Excluir exc = new Excluir(listaVeiculos);
+            exc.Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

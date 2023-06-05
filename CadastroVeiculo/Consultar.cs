@@ -46,5 +46,10 @@ namespace CadastroVeiculo
 
 
         }
+
+        private void listBox_consulta_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

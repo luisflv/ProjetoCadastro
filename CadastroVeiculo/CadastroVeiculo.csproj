@@ -147,6 +147,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bmw.ico" />
+    <None Include="Resources\braiaSong.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

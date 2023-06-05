@@ -17,7 +17,7 @@ namespace CadastroVeiculo
 
         public override string ToString()
         {
-            return $"ID: {Id} Modelo: {Modelo} Marca: {Marca} Cor: {Cor} Ano: {Ano} Quilometragem: {Quilometragem}";
+            return $"ID: {Id} | Modelo: {Modelo}  | Marca: {Marca} | Cor: {Cor} | Ano: {Ano} | Quilometragem: {Quilometragem}";
         }
     }
 }

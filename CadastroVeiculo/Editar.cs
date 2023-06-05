@@ -17,7 +17,7 @@ namespace CadastroVeiculo
         public Editar(ListaVeiculos listaVeiculos)
         {
             InitializeComponent();
-            listaVeiculos = new ListaVeiculos();
+            this.listaVeiculo = listaVeiculos;
         }
 
         
