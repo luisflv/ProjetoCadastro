@@ -38,6 +38,7 @@ namespace CadastroVeiculo
                 listaVeiculo.Adicionar(v);
 
                 MessageBox.Show("Veículo cadastrado com sucesso!");
+                
             } catch
             {
                 MessageBox.Show("Parâmetro inválido. Tente novamente.", "Cuidado!", MessageBoxButtons.OK, MessageBoxIcon.Warning);

@@ -180,11 +180,11 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Vladimir Script", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Vladimir Script", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label5.Location = new System.Drawing.Point(385, 311);
+            this.label5.Location = new System.Drawing.Point(455, 321);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(371, 45);
+            this.label5.Size = new System.Drawing.Size(289, 35);
             this.label5.TabIndex = 10;
             this.label5.Text = "Concessionária Braia Car";
             // 

@@ -28,29 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.listBox_consulta_editar = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.txt_id_editar = new System.Windows.Forms.TextBox();
+            this.txt_quilo_editar = new System.Windows.Forms.TextBox();
+            this.txt_cor_editar = new System.Windows.Forms.TextBox();
+            this.txt_modelo_editar = new System.Windows.Forms.TextBox();
+            this.txt_marca_editar = new System.Windows.Forms.TextBox();
+            this.txt_ano_editar = new System.Windows.Forms.TextBox();
+            this.btn_edit_veiculo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // listBox1
+            // listBox_consulta_editar
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(12, 12);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(776, 290);
-            this.listBox1.TabIndex = 0;
+            this.listBox_consulta_editar.FormattingEnabled = true;
+            this.listBox_consulta_editar.Location = new System.Drawing.Point(12, 12);
+            this.listBox_consulta_editar.Name = "listBox_consulta_editar";
+            this.listBox_consulta_editar.Size = new System.Drawing.Size(776, 290);
+            this.listBox_consulta_editar.TabIndex = 0;
             // 
             // label1
             // 
@@ -112,79 +112,80 @@
             this.label6.TabIndex = 6;
             this.label6.Text = "ID";
             // 
-            // textBox1
+            // txt_id_editar
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 329);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(179, 20);
-            this.textBox1.TabIndex = 7;
+            this.txt_id_editar.Location = new System.Drawing.Point(12, 329);
+            this.txt_id_editar.Name = "txt_id_editar";
+            this.txt_id_editar.Size = new System.Drawing.Size(179, 20);
+            this.txt_id_editar.TabIndex = 7;
             // 
-            // textBox2
+            // txt_quilo_editar
             // 
-            this.textBox2.Location = new System.Drawing.Point(214, 412);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(153, 20);
-            this.textBox2.TabIndex = 8;
+            this.txt_quilo_editar.Location = new System.Drawing.Point(214, 412);
+            this.txt_quilo_editar.Name = "txt_quilo_editar";
+            this.txt_quilo_editar.Size = new System.Drawing.Size(153, 20);
+            this.txt_quilo_editar.TabIndex = 8;
             // 
-            // textBox3
+            // txt_cor_editar
             // 
-            this.textBox3.Location = new System.Drawing.Point(214, 373);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(153, 20);
-            this.textBox3.TabIndex = 9;
+            this.txt_cor_editar.Location = new System.Drawing.Point(214, 373);
+            this.txt_cor_editar.Name = "txt_cor_editar";
+            this.txt_cor_editar.Size = new System.Drawing.Size(153, 20);
+            this.txt_cor_editar.TabIndex = 9;
             // 
-            // textBox4
+            // txt_modelo_editar
             // 
-            this.textBox4.Location = new System.Drawing.Point(12, 373);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(179, 20);
-            this.textBox4.TabIndex = 10;
+            this.txt_modelo_editar.Location = new System.Drawing.Point(12, 373);
+            this.txt_modelo_editar.Name = "txt_modelo_editar";
+            this.txt_modelo_editar.Size = new System.Drawing.Size(179, 20);
+            this.txt_modelo_editar.TabIndex = 10;
             // 
-            // textBox5
+            // txt_marca_editar
             // 
-            this.textBox5.Location = new System.Drawing.Point(12, 412);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(176, 20);
-            this.textBox5.TabIndex = 11;
+            this.txt_marca_editar.Location = new System.Drawing.Point(12, 412);
+            this.txt_marca_editar.Name = "txt_marca_editar";
+            this.txt_marca_editar.Size = new System.Drawing.Size(176, 20);
+            this.txt_marca_editar.TabIndex = 11;
             // 
-            // textBox6
+            // txt_ano_editar
             // 
-            this.textBox6.Location = new System.Drawing.Point(214, 329);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(153, 20);
-            this.textBox6.TabIndex = 12;
+            this.txt_ano_editar.Location = new System.Drawing.Point(214, 329);
+            this.txt_ano_editar.Name = "txt_ano_editar";
+            this.txt_ano_editar.Size = new System.Drawing.Size(153, 20);
+            this.txt_ano_editar.TabIndex = 12;
             // 
-            // button1
+            // btn_edit_veiculo
             // 
-            this.button1.BackColor = System.Drawing.Color.SteelBlue;
-            this.button1.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(390, 329);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(398, 103);
-            this.button1.TabIndex = 13;
-            this.button1.Text = "EDITAR";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btn_edit_veiculo.BackColor = System.Drawing.Color.SteelBlue;
+            this.btn_edit_veiculo.Font = new System.Drawing.Font("Verdana", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_edit_veiculo.ForeColor = System.Drawing.Color.White;
+            this.btn_edit_veiculo.Location = new System.Drawing.Point(390, 329);
+            this.btn_edit_veiculo.Name = "btn_edit_veiculo";
+            this.btn_edit_veiculo.Size = new System.Drawing.Size(398, 103);
+            this.btn_edit_veiculo.TabIndex = 13;
+            this.btn_edit_veiculo.Text = "EDITAR";
+            this.btn_edit_veiculo.UseVisualStyleBackColor = false;
+            this.btn_edit_veiculo.Click += new System.EventHandler(this.btn_edit_veiculo_Click);
             // 
             // Editar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btn_edit_veiculo);
+            this.Controls.Add(this.txt_ano_editar);
+            this.Controls.Add(this.txt_marca_editar);
+            this.Controls.Add(this.txt_modelo_editar);
+            this.Controls.Add(this.txt_cor_editar);
+            this.Controls.Add(this.txt_quilo_editar);
+            this.Controls.Add(this.txt_id_editar);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.listBox_consulta_editar);
             this.Name = "Editar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Editar";
@@ -196,19 +197,19 @@
 
         #endregion
 
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox listBox_consulta_editar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txt_id_editar;
+        private System.Windows.Forms.TextBox txt_quilo_editar;
+        private System.Windows.Forms.TextBox txt_cor_editar;
+        private System.Windows.Forms.TextBox txt_modelo_editar;
+        private System.Windows.Forms.TextBox txt_marca_editar;
+        private System.Windows.Forms.TextBox txt_ano_editar;
+        private System.Windows.Forms.Button btn_edit_veiculo;
     }
 }

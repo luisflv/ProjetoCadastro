@@ -18,6 +18,13 @@ namespace CadastroVeiculo
         {
             InitializeComponent();
             this.listaVeiculo = listaVeiculos;
+
+            List<Veiculo> listV = listaVeiculo.Consultar();
+
+            foreach (var item in listV)
+            {
+                listBox_consulta_editar.Items.Add(item.ToString());
+            }
         }
 
         
@@ -25,6 +32,30 @@ namespace CadastroVeiculo
         private void Editar_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btn_edit_veiculo_Click(object sender, EventArgs e)
+        {
+            Veiculo v = new Veiculo();
+
+            v.Modelo = txt_modelo_editar.Text;  
+            v.Marca = txt_marca_editar.Text;
+            v.Cor = txt_cor_editar.Text;
+            v.Ano = Convert.ToInt32(txt_ano_editar.Text);
+            v.Quilometragem = Convert.ToDouble(txt_quilo_editar.Text);
+
+            int id_atualiza = Convert.ToInt32(txt_id_editar.Text); 
+
+            listaVeiculo.Atualizar(id_atualiza, v);
+
+            List<Veiculo> listV = listaVeiculo.Consultar();
+
+            listBox_consulta_editar.Items.Clear();
+
+            foreach (var item in listV)
+            {
+                listBox_consulta_editar.Items.Add(item.ToString());
+            }
         }
     }
 }

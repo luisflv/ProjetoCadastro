@@ -19,7 +19,6 @@ namespace CadastroVeiculo
             InitializeComponent();
             this.listaVeiculos= listaVeiculos;
         }
-
         
     }
 }
