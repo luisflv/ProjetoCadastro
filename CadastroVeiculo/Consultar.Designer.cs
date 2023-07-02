@@ -35,9 +35,9 @@
             // 
             // listBox_consulta
             // 
-            this.listBox_consulta.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBox_consulta.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox_consulta.FormattingEnabled = true;
-            this.listBox_consulta.ItemHeight = 24;
+            this.listBox_consulta.ItemHeight = 20;
             this.listBox_consulta.Location = new System.Drawing.Point(12, 12);
             this.listBox_consulta.Name = "listBox_consulta";
             this.listBox_consulta.Size = new System.Drawing.Size(776, 364);

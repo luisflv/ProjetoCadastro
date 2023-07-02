@@ -36,6 +36,7 @@ namespace CadastroVeiculo
 
         private void btn_edit_veiculo_Click(object sender, EventArgs e)
         {
+            try { 
             Veiculo v = new Veiculo();
 
             v.Modelo = txt_modelo_editar.Text;  
@@ -55,6 +56,10 @@ namespace CadastroVeiculo
             foreach (var item in listV)
             {
                 listBox_consulta_editar.Items.Add(item.ToString());
+            }
+            } catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
             }
         }
     }

@@ -13,12 +13,12 @@ namespace CadastroVeiculo
     public partial class Consultar : Form
     {
 
-        ListaVeiculos listaVeiculo;
+        ListaVeiculos listaVeiculoConsultar;
 
         public Consultar(ListaVeiculos listaVeiculo)
         {
             InitializeComponent();
-            this.listaVeiculo = listaVeiculo;
+            this.listaVeiculoConsultar = listaVeiculo;
         }
 
         private void Consultar_Load(object sender, EventArgs e)
@@ -28,7 +28,7 @@ namespace CadastroVeiculo
 
         private void button1_Click(object sender, EventArgs e)
         {
-            List<Veiculo> listV = listaVeiculo.Consultar();
+            List<Veiculo> listV = listaVeiculoConsultar.Consultar();
 
             if (listV.Count == 0)
             {

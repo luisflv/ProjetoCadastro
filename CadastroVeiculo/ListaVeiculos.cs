@@ -10,7 +10,7 @@ namespace CadastroVeiculo
     public class ListaVeiculos
     {
 
-        public List<Veiculo> listaVeiculos { get; set; } = new List<Veiculo>();
+        public List<Veiculo> listaVeiculos = new List<Veiculo>();
 
         public void Adicionar(Veiculo veiculo)
         {
